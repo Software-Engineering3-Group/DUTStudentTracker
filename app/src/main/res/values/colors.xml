@@ -1,0 +1,11 @@
+<resources>
+    <color name="dut_blue">#003366</color>
+    <color name="dut_yellow">#FFD700</color>
+    <color name="dut_white">#FFFFFF</color>
+    <color name="dut_gray">#F5F5F5</color>
+    <color name="button_color">#FFD700</color>
+    <color name="button_text_color">#003366</color>
+    <color name="dut_purple">#4B0082</color>
+    <color name="dut_teal">#008080</color>
+    <color name="dut_black">#000000</color>
+</resources>

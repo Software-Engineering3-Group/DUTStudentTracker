@@ -1,0 +1,10 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">DUT Student Tracker</string>
+    <string name="welcome_message">Welcome to DUT Attendance System</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="student_id_hint">Enter Student ID</string>
+    <string name="welcome_title">Welcome to the DUT Register Scanner</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="login">Login</string>
+</resources>

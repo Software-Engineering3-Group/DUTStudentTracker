@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="DUTButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/dut_white</item>
+        <item name="backgroundTint">@color/dut_purple</item>
+    </style>
+</resources>

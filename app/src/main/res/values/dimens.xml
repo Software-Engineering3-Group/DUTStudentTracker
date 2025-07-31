@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="button_radius">100dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+</resources>
