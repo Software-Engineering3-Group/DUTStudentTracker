@@ -1,5 +1,6 @@
 package com.example.dutstudenttracker;
 
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -48,7 +49,8 @@ public class CameraPermissionActivity extends AppCompatActivity {
     }
 
     private void proceedWithCamera() {
-        // Placeholder: you will later integrate your biometric/face library here
         Toast.makeText(this, "Camera permission granted. Ready for face scanning.", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
     }
 }
