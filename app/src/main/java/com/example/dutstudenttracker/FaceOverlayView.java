@@ -51,6 +51,13 @@ public class FaceOverlayView extends View {
         this.isFrontFacing = true;
     }
 
+    public void setBoxColor(int color) {
+        if (boxPaint != null) {
+            boxPaint.setColor(color);
+            invalidate(); // Refresh the view so the new color is applied immediately
+        }
+    }
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
